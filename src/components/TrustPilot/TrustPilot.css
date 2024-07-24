@@ -1,0 +1,75 @@
+.trustpilot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    align-items: center;
+    margin-block: 130px 94px;
+}
+.trustpilot .rectangul{
+    height: 130px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trustpilot .rectangul:nth-child(3){
+    row-gap: 20px;
+}
+.trustpilot .rectangul h2{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 39px;
+}
+.trustpilot .rectangul span{
+    font-size: 1.125rem;
+    line-height: 27px;
+}
+.trustpilot .rectangul:nth-child(odd){
+    background-color: #354C66 ;
+}
+.trustpilot .rectangul:nth-child(even){
+    background-color: var(--greenColor) ;
+}
+.trustpilot .rectangul .checked{
+    color: var(--starColor);
+}
+.trustpilot .rectangul .top-side{
+    display: flex;
+    align-items: center;
+    column-gap: 3px ;
+}
+.trustpilot .rectangul .top-side h2{
+    margin-left: 15px;
+}
+.trustpilot .rectangul .bottom-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.trustpilot .rectangul .bottom-side p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.trustpilot .rectangul .bottom-side div{
+    display: flex;
+    align-items: center;
+}
+.trustpilot .rectangul .bottom-side span{
+    font-size: 1.5625rem;
+    font-weight: 700;
+    margin-right: 6px;
+}
+.trustpilot .rectangul .bottom-side .fa-star{
+    font-size: 1.25rem;
+}
+@media screen and (max-width: 992px) {
+    .trustpilot .rectangul .bottom-side{
+        column-gap: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .trustpilot{
+        display: block;
+    }
+}

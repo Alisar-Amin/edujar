@@ -1,0 +1,26 @@
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 70px;
+    color: var(--lightColor);
+    margin-bottom: 94px;
+}
+.brand svg{
+    font-size: 1.5625rem;
+}
+.brand div{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.brand p{
+    font-family: "KoHo", sans-serif !important;
+    font-size: 1.875rem;
+}
+.brand p img{
+    margin-bottom: -5px;
+}
+.brand p span{
+    font-size: .9375rem;
+}

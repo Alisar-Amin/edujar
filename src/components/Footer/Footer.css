@@ -1,0 +1,77 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    padding-inline: 70px;
+    margin-bottom: 62px;
+}
+.footer .logo{
+    font-family: "KoHo", sans-serif !important;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 35px;
+    color: var(--lightColor);
+    margin-bottom: 24px;
+}
+.footer .logo span{
+    color: var(--greenColor);
+}
+.footer .desc{
+    font-size: 1rem;
+    color: var(--lightColor);
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 360px;
+    margin-bottom: 80px;
+}
+.footer .marketing{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--lightColor);
+}
+.footer .marketing span{
+    color: var(--orangeColor);
+}
+.footer h2{
+    font-family: "KoHo", sans-serif !important;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 35px;
+    color: var(--lightColor);
+}
+.footer input{
+    width: 283px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #E1EFFF80;
+    font-size: .875rem;
+    font-weight: 400;
+    color: var(--lightColor);
+    outline: none;
+}
+.footer button{
+    display: block;
+    width: 176px;
+    height: 40px;
+    border-radius: var(--radius20);
+    background-color: var(--greenColor);
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 24px;
+}

@@ -1,0 +1,55 @@
+.courses{
+    margin-top: 94px;
+    padding-inline: 70px;
+}
+.courses h1{
+    font-family: "KoHo", sans-serif !important;
+    font-weight: 700;
+    font-size: 2.625rem;
+    color: #FFF;
+}
+.courses .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+}
+.courses .container p{
+    margin-top: 10px;
+    color: var(--lightColor);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.courses .container .controll button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primaryColor);
+    color: #FFF;
+    cursor: pointer;
+}
+.courses .container .controll button:first-child{
+    margin-right: 10px;
+}
+.courses .course-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin-block: 56px;
+}
+.courses .btn-courses{
+    width: 190px;
+    height: 55px;
+    border-radius: var(--radius40);
+    border: 2px solid #FFF;
+    cursor: pointer;
+    background: none;
+    color: #FFF;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 140px;
+}

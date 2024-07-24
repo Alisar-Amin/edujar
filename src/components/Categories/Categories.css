@@ -1,0 +1,30 @@
+.categories{
+    text-align: center;
+    color: #FFF;
+}
+.categories h1{
+    font-size: 2.625rem;
+    font-weight: 700;
+    font-family: "KoHo", sans-serif !important;
+}
+.categories p{
+    font-size: 1.125rem;
+    margin-top: 10px;
+    margin-bottom: 56px;
+}
+.categories .category-content{
+    width: 100%;
+    background-image: url('/assets/img/category-bg.png');
+    padding-block: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.categories .category-content button{
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 30px;
+    cursor: pointer;
+}

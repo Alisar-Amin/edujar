@@ -1,0 +1,49 @@
+.views{
+    max-width: 1226px;
+    height: 620px;
+    margin: 0 auto;
+    position: relative;
+    margin-block: 174px 94px;
+}
+.views .img-bg{
+    position: absolute;
+    top: -403px;
+}
+.views .view-bg{
+    background-image: url('/assets/img/bg.png');
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.views .view-bg h1{
+    font-family: "KoHo", sans-serif !important;
+    color: #FFF;
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+.views .view-bg p{
+    font-size: 1rem;
+    color: #E1EFFF;
+    line-height: 40px;
+    max-width: 1092px;
+    text-align: center;
+}
+.views .view-bg span{
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #FFF;
+}
+.views .view-bg .parsonal-img{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.views .view-bg svg{
+    color: #FFF;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
